@@ -38,7 +38,7 @@ import com.mysql.cj.xdevapi.ExprUnparser;
 
 public class DataStoreMetadataImpl implements DataStoreMetadata {
 
-    private Session session;
+    public Session session;
 
     public DataStoreMetadataImpl(Session sess) {
         this.session = sess;
